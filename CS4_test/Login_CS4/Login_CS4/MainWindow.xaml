@@ -1,0 +1,30 @@
+﻿<Window x:Class="Login_CS4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF1FDCA9" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="User Name :" Height="28" HorizontalAlignment="Left" Margin="154,28,0,0" Name="label1" VerticalAlignment="Top" Foreground="#FFF1F0F0" />
+        <Label Content="Password :" Height="28" HorizontalAlignment="Left" Margin="154,62,0,0" Name="label2" VerticalAlignment="Top" Foreground="#FFEEE7E7" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="274,33,0,0" Name="usernameTB" VerticalAlignment="Top" Width="120" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="274,67,0,0" Name="PasswordBoxPB" VerticalAlignment="Top" Width="120" />
+        <Button Content="Log in" Height="23" HorizontalAlignment="Left" Margin="319,104,0,0" Name="LoginBTN" VerticalAlignment="Top" Width="75" Click="LoginBTN_Click" FontWeight="Bold" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF159E66" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Log out" Height="23" HorizontalAlignment="Left" Margin="154,104,0,0" Name="logoutBTN" VerticalAlignment="Top" Width="75" Visibility="Collapsed" Click="logoutBTN_Click" />
+        
+        
+    </Grid>
+</Window>
