@@ -13,7 +13,7 @@
         <Label Content="Password :" Height="28" HorizontalAlignment="Left" Margin="154,62,0,0" Name="label2" VerticalAlignment="Top" Foreground="#FFEEE7E7" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="274,33,0,0" Name="usernameTB" VerticalAlignment="Top" Width="120" />
         <PasswordBox Height="23" HorizontalAlignment="Left" Margin="274,67,0,0" Name="PasswordBoxPB" VerticalAlignment="Top" Width="120" />
-        <Button Content="Log in" Height="23" HorizontalAlignment="Left" Margin="319,104,0,0" Name="LoginBTN" VerticalAlignment="Top" Width="75" Click="LoginBTN_Click" FontWeight="Bold" >
+        <Button Content="Log in" Height="23" HorizontalAlignment="Left" Margin="319,111,0,0" Name="LoginBTN" VerticalAlignment="Top" Width="75" Click="LoginBTN_Click" FontWeight="Bold" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -24,7 +24,8 @@
             </Button.Background>
         </Button>
         <Button Content="Log out" Height="23" HorizontalAlignment="Left" Margin="154,104,0,0" Name="logoutBTN" VerticalAlignment="Top" Width="75" Visibility="Collapsed" Click="logoutBTN_Click" />
-        <ListBox HorizontalAlignment="Left" Height="100" Margin="154,164,0,0" VerticalAlignment="Top" Width="100"/>
+       
+        
 
 
     </Grid>
