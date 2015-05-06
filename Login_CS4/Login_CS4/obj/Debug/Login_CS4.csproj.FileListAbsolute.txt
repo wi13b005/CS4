@@ -23,3 +23,13 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\Login_CS4\Login_CS4\obj\Debug\Log
 C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\bin\Debug\Login_CS4.exe.config
 C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.exe
 C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\bin\Debug\Login_CS4.exe
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\bin\Debug\Login_CS4.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.csprojResolveAssemblyReference.cache
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\MainWindow.baml
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\MainWindow.g.cs
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\App.g.cs
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4_MarkupCompile.cache
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.g.resources
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.Properties.Resources.resources
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.csproj.GenerateResource.Cache
