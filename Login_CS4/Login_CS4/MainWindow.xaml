@@ -24,6 +24,7 @@
             </Button.Background>
         </Button>
         <Button Content="Log out" Height="23" HorizontalAlignment="Left" Margin="154,104,0,0" Name="logoutBTN" VerticalAlignment="Top" Width="75" Visibility="Collapsed" Click="logoutBTN_Click" />
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="154,164,0,0" VerticalAlignment="Top" Width="100"/>
 
 
     </Grid>
