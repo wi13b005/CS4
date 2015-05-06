@@ -20,3 +20,6 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\Login_CS4\Login_CS4\Login_CS4\obj
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\Login_CS4\Login_CS4\bin\Debug\Login_CS4.exe.config
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\Login_CS4\Login_CS4\obj\Debug\Login_CS4.exe
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\Login_CS4\Login_CS4\obj\Debug\Login_CS4.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\bin\Debug\Login_CS4.exe.config
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.exe
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.pdb
