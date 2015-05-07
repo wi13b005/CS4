@@ -33,3 +33,6 @@ C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4_Ma
 C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.g.resources
 C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.Properties.Resources.resources
 C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.csproj.GenerateResource.Cache
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\Login_CS4\Login_CS4\bin\Debug\Login_CS4.exe.config
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\Login_CS4\Login_CS4\obj\Debug\Login_CS4.exe
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\Login_CS4\Login_CS4\obj\Debug\Login_CS4.pdb
