@@ -68,6 +68,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\BookingViewModel.cs" />
+    <Compile Include="ViewModel\EHR1ViewModel.cs" />
+    <Compile Include="ViewModel\EHR2ViewModel.cs" />
+    <Compile Include="ViewModel\EHRViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Page Include="MainWindow.xaml">
