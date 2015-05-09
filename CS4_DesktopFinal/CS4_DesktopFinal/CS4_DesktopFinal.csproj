@@ -68,6 +68,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converter\BoolToVisibilityConverter.cs" />
     <Compile Include="ViewModel\BookingViewModel.cs" />
     <Compile Include="ViewModel\EHR1ViewModel.cs" />
     <Compile Include="ViewModel\EHR2ViewModel.cs" />

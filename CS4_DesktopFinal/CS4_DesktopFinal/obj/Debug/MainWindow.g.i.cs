@@ -85,6 +85,38 @@ namespace CS4_DesktopFinal {
             #line default
             #line hidden
             return;
+            case 3:
+            
+            #line 47 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_2);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            
+            #line 48 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_3);
+            
+            #line default
+            #line hidden
+            return;
+            case 5:
+            
+            #line 55 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            
+            #line 66 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_4);
+            
+            #line default
+            #line hidden
+            return;
             }
             this._contentLoaded = true;
         }

@@ -44,15 +44,15 @@
                     <Grid Grid.Column="2" HorizontalAlignment="Left" Height="379" Margin="9.5,209,0,0" VerticalAlignment="Top" Width="384"/>
                     <DataGrid HorizontalAlignment="Left" Margin="0,254,0,0" VerticalAlignment="Top" Height="349" Width="378" Grid.Column="1" RenderTransformOrigin="0.492,0.511"/>
                     <Label Content="Book Apointment" Grid.Column="1" HorizontalAlignment="Left" Margin="482,22,0,0" VerticalAlignment="Top" Height="38" Width="246"/>
-                    <Button Content="Edit Appointment" Grid.Column="1" HorizontalAlignment="Left" Margin="461,528,0,0" VerticalAlignment="Top" Width="122"/>
-                    <Button Content="Remove Appointment" Grid.Column="1" HorizontalAlignment="Left" Margin="461,568,0,0" VerticalAlignment="Top" Width="122"/>
+                    <Button Content="Edit Appointment" Grid.Column="1" HorizontalAlignment="Left" Margin="461,528,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_2"/>
+                    <Button Content="Remove Appointment" Grid.Column="1" HorizontalAlignment="Left" Margin="461,568,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_3"/>
                     <DatePicker Grid.Column="1" HorizontalAlignment="Left" Margin="719,209,0,0" VerticalAlignment="Top"/>
                     <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="857,209,0,0" TextWrapping="Wrap" Text="12:00" VerticalAlignment="Top" Width="44"/>
                     <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="857,237,0,0" TextWrapping="Wrap" Text="13:00" VerticalAlignment="Top" Width="44"/>
                     <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="810,285,0,0" VerticalAlignment="Top" Width="131"/>
                     <Label Content="Treatment" Grid.Column="1" HorizontalAlignment="Left" Margin="719,285,0,0" VerticalAlignment="Top"/>
                     <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="266" Margin="710,142,0,0" VerticalAlignment="Top" Width="254"/>
-                    <Button Content="Save Appointment" Grid.Column="1" HorizontalAlignment="Left" Margin="810,360,0,0" VerticalAlignment="Top" Width="112"/>
+                    <Button Content="Save Appointment" Grid.Column="1" HorizontalAlignment="Left" Margin="810,360,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1"/>
                     <Label Content="Select a Patient" Grid.Column="1" HorizontalAlignment="Left" Margin="719,155,0,0" VerticalAlignment="Top"/>
                     <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="821,155,0,0" VerticalAlignment="Top" Width="120"/>
                 </Grid>
@@ -63,7 +63,7 @@
                     <ComboBox HorizontalAlignment="Left" Margin="188,88,0,0" VerticalAlignment="Top" Width="193"/>
                     <Label Content="Choose Patient" HorizontalAlignment="Left" Margin="67,88,0,0" VerticalAlignment="Top"/>
                     <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="50,176,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
-                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="241,201,0,0" VerticalAlignment="Top" Width="142"/>
+                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="241,201,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_4"/>
                     <Label Content="Create new Customer" HorizontalAlignment="Left" Margin="67,201,0,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>
