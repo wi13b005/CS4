@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,22 @@ using System.Threading.Tasks;
 
 namespace CS4_DesktopFinal.ViewModel
 {
-    public class BookingViewModel
+    public class BookingViewModel:ViewModelBase
     {
+
+        public BookingViewModel()
+        {
+
+        }
+
+        public BookingViewModel(String n, int from, int till, String t)
+        {
+            Name = n;
+            From = from;
+            Till = till;
+            Treatment = t;
+        }
+
 
         private String name;
 

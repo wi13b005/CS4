@@ -1,13 +1,32 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CS4_DesktopFinal.ViewModel
+
 {
-    public class EHR1ViewModel
+    public class EHR1ViewModel:ViewModelBase
     {
+
+        public EHR1ViewModel()
+        {
+
+        }
+
+        public EHR1ViewModel(String f, String l, int ssn, String a, String h, String all, String prev, String dur, String plan, String phys)
+        {
+            Firstname = f;
+            Lastname = l;
+            SSN = ssn;
+            Allergies = all;
+            PrevMedication = prev;
+            DuringMedication = dur;
+            PlanOfCare = plan;
+            PhysicalExam = phys;
+        }
 
         private String firstname;
 

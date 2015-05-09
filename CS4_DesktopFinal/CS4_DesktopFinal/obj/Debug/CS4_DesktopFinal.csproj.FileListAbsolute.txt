@@ -14,3 +14,5 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debu
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.exe.config
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.exe
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal_MarkupCompile.lref
