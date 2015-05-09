@@ -49,5 +49,10 @@ namespace CS4_DesktopFinal
         {
 
         }
+
+        private void CreateCustomer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
