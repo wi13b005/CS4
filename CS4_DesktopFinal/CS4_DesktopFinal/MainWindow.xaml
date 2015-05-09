@@ -9,7 +9,7 @@
 		    VerticalAlignment="Top"
 		    Width="497"
 		    SelectionChanged="TabControl_SelectionChanged">
-            <TabItem Header="Cat">
+            <TabItem Header="Login">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
@@ -19,7 +19,7 @@
 			       Width="471"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Mouse">
+            <TabItem Header="Book Appointment">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
@@ -29,7 +29,7 @@
 			       Width="471"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Cat">
+            <TabItem Header="EHR">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
@@ -39,22 +39,22 @@
 			       Width="471"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Cat">
+            <TabItem Header="EHR1">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
 			       TextWrapping="Wrap"
-			       Text="Take pictures of me and put them on the Internet. Meow."
+			       Text="has to be hidden; after pressing 'CREATE new patient' in tab EHR you can see this tab"
 			       VerticalAlignment="Top"
 			       Width="471"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Cat">
+            <TabItem Header="EHR2">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
 			       TextWrapping="Wrap"
-			       Text="Take pictures of me and put them on the Internet. Meow."
+			       Text="has to be hidden; after inserting name into 'search for patient' in tab EHR you can see this tab"
 			       VerticalAlignment="Top"
 			       Width="471"/>
                 </Grid>
