@@ -11,3 +11,6 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debu
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.csproj.GenerateResource.Cache
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.exe
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.pdb
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.exe.config
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.exe
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.pdb
