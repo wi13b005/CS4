@@ -9,7 +9,7 @@
 		    VerticalAlignment="Top"
 		    Width="1290"
 		    SelectionChanged="TabControl_SelectionChanged">
-            <TabItem Header="Login">
+            <TabItem Header="Login" Margin="0,0,-4.4,-2">
                 <Grid Background="#FFE5E5E5" Margin="0,-1,-684,-361">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="91*"/>
