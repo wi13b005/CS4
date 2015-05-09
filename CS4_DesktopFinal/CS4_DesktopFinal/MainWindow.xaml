@@ -3,7 +3,62 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Finish CS4 !!" HorizontalAlignment="Left" Margin="230,188,0,0" VerticalAlignment="Top" Width="75"/>
-
+        <TabControl HorizontalAlignment="Left"
+		    Height="299"
+		    Margin="10,10,0,0"
+		    VerticalAlignment="Top"
+		    Width="497"
+		    SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="Login">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10"
+			       TextWrapping="Wrap"
+			       Text="Take pictures of me and put them on the Internet. Meow."
+			       VerticalAlignment="Top"
+			       Width="471"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Book Appointment">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10"
+			       TextWrapping="Wrap"
+			       Text="I want some cheese."
+			       VerticalAlignment="Top"
+			       Width="471"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="EHR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10"
+			       TextWrapping="Wrap"
+			       Text="Take pictures of me and put them on the Internet. Meow."
+			       VerticalAlignment="Top"
+			       Width="471"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="EHR1">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10"
+			       TextWrapping="Wrap"
+			       Text="has to be hidden; after pressing 'CREATE new patient' in tab EHR you can see this tab"
+			       VerticalAlignment="Top"
+			       Width="471"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="EHR2">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10"
+			       TextWrapping="Wrap"
+			       Text="has to be hidden; after inserting name into 'search for patient' in tab EHR you can see this tab"
+			       VerticalAlignment="Top"
+			       Width="471"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
