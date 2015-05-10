@@ -95,7 +95,7 @@
                     <TextBox HorizontalAlignment="Left" Height="77" Margin="746,316,0,0" TextWrapping="Wrap" Text="medication during treatment..." VerticalAlignment="Top" Width="267"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="EHR2">
+            <TabItem Header="(for later use)">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
