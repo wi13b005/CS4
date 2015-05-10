@@ -54,5 +54,30 @@ namespace CS4_DesktopFinal
         {
 
         }
+
+        private void DeleteAppointmet_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void EditAppointment_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SaveAppointment_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
