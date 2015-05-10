@@ -25,6 +25,9 @@ namespace CS4_DesktopFinal
             InitializeComponent();
         }
 
+     
+
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -75,10 +78,7 @@ namespace CS4_DesktopFinal
 
         }
 
-        private void Login_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
 
         private void SaveAppointment_Click(object sender, RoutedEventArgs e)
         {
@@ -89,5 +89,7 @@ namespace CS4_DesktopFinal
         {
 
         }
+
+        
     }
 }

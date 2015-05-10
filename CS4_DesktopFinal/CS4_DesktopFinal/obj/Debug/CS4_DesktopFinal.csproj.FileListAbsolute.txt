@@ -39,3 +39,5 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debu
 D:\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.exe.config
 D:\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.exe
 D:\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Login.baml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Login.g.cs
