@@ -72,7 +72,7 @@
             </TabItem>
             <TabItem Header="EHR1 (Create Patient)">
                 <Grid Background="#FFE5E5E5">
-                    <Image HorizontalAlignment="Left" Height="201" Margin="78,246,0,0" VerticalAlignment="Top" Width="226"/>
+                    <Image Source="Images/body.png" HorizontalAlignment="Left" Height="366" Margin="74,228,0,0" VerticalAlignment="Top" Width="194"/>
                     <Label Content="Firstname" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
                     <Label Content="Lastname" HorizontalAlignment="Left" Margin="44,110,0,0" VerticalAlignment="Top"/>
                     <Label Content="SSN" HorizontalAlignment="Left" Margin="44,141,0,0" VerticalAlignment="Top"/>
@@ -81,9 +81,21 @@
                     <TextBox HorizontalAlignment="Left" Height="23" Margin="128,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
                     <TextBox HorizontalAlignment="Left" Height="23" Margin="128,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <TextBox HorizontalAlignment="Left" Height="23" Margin="128,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="History" HorizontalAlignment="Left" Margin="444,30,0,0" VerticalAlignment="Top"/>
+                    <Label Content="known Allergies" HorizontalAlignment="Left" Margin="444,154,0,0" VerticalAlignment="Top"/>
+                    <Label Content="previous Medication" HorizontalAlignment="Left" Margin="444,290,0,0" VerticalAlignment="Top"/>
+                    <Label Content="medication during treatment" HorizontalAlignment="Left" Margin="746,290,0,0" VerticalAlignment="Top"/>
+                    <Label Content="information relating to plan of care" HorizontalAlignment="Left" Margin="746,154,0,0" VerticalAlignment="Top"/>
+                    <Label Content="physical examination" HorizontalAlignment="Left" Margin="746,30,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="77" Margin="444,56,0,0" TextWrapping="Wrap" Text="add History..." VerticalAlignment="Top" Width="260"/>
+                    <TextBox HorizontalAlignment="Left" Height="82" Margin="444,184,0,0" TextWrapping="Wrap" Text="add allergies..." VerticalAlignment="Top" Width="260" TextChanged="TextBox_TextChanged_1"/>
+                    <TextBox HorizontalAlignment="Left" Height="77" Margin="444,316,0,0" TextWrapping="Wrap" Text="add previous medication... " VerticalAlignment="Top" Width="260"/>
+                    <TextBox HorizontalAlignment="Left" Height="77" Margin="746,56,0,0" TextWrapping="Wrap" Text="add examination..." VerticalAlignment="Top" Width="267"/>
+                    <TextBox HorizontalAlignment="Left" Height="82" Margin="746,184,0,0" TextWrapping="Wrap" Text="information according to plan..." VerticalAlignment="Top" Width="267"/>
+                    <TextBox HorizontalAlignment="Left" Height="77" Margin="746,316,0,0" TextWrapping="Wrap" Text="medication during treatment..." VerticalAlignment="Top" Width="267"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="EHR2">
+            <TabItem Header="(for later use)">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10"
