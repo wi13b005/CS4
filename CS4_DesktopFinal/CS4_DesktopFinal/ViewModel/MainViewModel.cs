@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using System.Collections.ObjectModel;
 
 namespace CS4_DesktopFinal.ViewModel
 {
@@ -16,19 +17,38 @@ namespace CS4_DesktopFinal.ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
-        /// <summary>
-        /// Initializes a new instance of the MainViewModel class.
-        /// </summary>
+        private ObservableCollection<BookingViewModel> bookings;
+
+        public ObservableCollection<BookingViewModel> Bookings
+        {
+            get { return bookings; }
+            set { bookings = value; }
+        }
+        
+        
         public MainViewModel()
         {
-            ////if (IsInDesignMode)
-            ////{
-            ////    // Code runs in Blend --> create design time data.
-            ////}
-            ////else
-            ////{
-            ////    // Code runs "for real"
-            ////}
+            Bookings = new ObservableCollection<BookingViewModel>();
+            generateTestData();
+        }
+
+        private void generateTestData()
+        {
+            Bookings.Add(new BookingViewModel() 
+            {
+                From=10,
+                Name="Eierkuchen",
+                Till=11,
+                Treatment="chinatreatment"
+            });
+
+            Bookings.Add(new BookingViewModel()
+            {
+                From = 12,
+                Name = "Palatschinke",
+                Till = 13,
+                Treatment = "asiatreatment"
+            });
         }
     }
 }
