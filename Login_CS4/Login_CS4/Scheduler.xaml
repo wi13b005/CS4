@@ -1,8 +1,8 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler" x:Class="Login_CS4.Scheduler"
-        Title="Scheduler" Height="300" Width="670">
+        xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="Login_CS4.Scheduler"
+        Title="Scheduler" Height="300" Width="670" Icon="{dx:DXImage Image=Windows_32x32.png}" WindowState="Maximized" WindowStartupLocation="CenterScreen" Background="#FFC51818">
     <Grid>
 
         <dxsch:SchedulerControl x:Name="scheduler" ActiveViewType="Week">

@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="700" Width="1200" 
         DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
-    <Grid>
+<Grid>
         <TabControl HorizontalAlignment="Left"
 		    Height="690"
 		    Margin="10,10,10,10"
@@ -19,7 +19,7 @@
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10,10,0,0"
 			       TextWrapping="Wrap"
-			       Text="Take pictures of me and put them on the Internet. Meow."
+			       Text=""
 			       VerticalAlignment="Top"
 			       Width="471" Height="16"/>
                     <Button Content="Login" HorizontalAlignment="Left" Margin="214,182,0,0" VerticalAlignment="Top" Width="74" Click="Login_Click" RenderTransformOrigin="0.347,2.75" Height="20"/>

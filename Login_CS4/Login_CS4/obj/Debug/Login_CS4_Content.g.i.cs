@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("component/bitmap1.bmp")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("desktopdb.mdf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("desktopdb_log.ldf")]
 
 
