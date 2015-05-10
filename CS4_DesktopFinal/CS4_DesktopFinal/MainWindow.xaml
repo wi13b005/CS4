@@ -64,9 +64,9 @@
                     <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="50,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
                     <ComboBox HorizontalAlignment="Left" Margin="188,88,0,0" VerticalAlignment="Top" Width="193"/>
                     <Label Content="Choose Patient" HorizontalAlignment="Left" Margin="67,88,0,0" VerticalAlignment="Top"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="50,176,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
-                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="241,201,0,0" VerticalAlignment="Top" Width="142" Click="CreateCustomer_Click"/>
-                    <Label Content="Create new Customer" HorizontalAlignment="Left" Margin="67,201,0,0" VerticalAlignment="Top"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="481,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
+                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="672,87,0,0" VerticalAlignment="Top" Width="142" Click="CreateCustomer_Click"/>
+                    <Label Content="Create new Customer" HorizontalAlignment="Left" Margin="510,84,0,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>
             <TabItem Header="EHR1">
