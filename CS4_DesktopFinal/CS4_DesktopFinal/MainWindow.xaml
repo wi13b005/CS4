@@ -94,6 +94,7 @@
                     <TextBox HorizontalAlignment="Left" Height="77" Margin="746,56,0,0" TextWrapping="Wrap" Text="add examination..." VerticalAlignment="Top" Width="267"/>
                     <TextBox HorizontalAlignment="Left" Height="82" Margin="746,184,0,0" TextWrapping="Wrap" Text="information according to plan..." VerticalAlignment="Top" Width="267"/>
                     <TextBox HorizontalAlignment="Left" Height="77" Margin="746,316,0,0" TextWrapping="Wrap" Text="medication during treatment..." VerticalAlignment="Top" Width="267"/>
+                    <Button Content="create Patient" HorizontalAlignment="Left" Margin="444,452,0,0" VerticalAlignment="Top" Width="118" Height="32"/>
                 </Grid>
             </TabItem>
             <TabItem Header="(for later use)">
