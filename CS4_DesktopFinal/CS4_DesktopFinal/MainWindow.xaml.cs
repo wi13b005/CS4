@@ -24,5 +24,10 @@ namespace CS4_DesktopFinal
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
