@@ -25,7 +25,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String SearchName
         {
             get { return searchName; }
-            set { searchName = value; }
+            set { searchName = value; RaisePropertyChanged(); }
         }
 
     }

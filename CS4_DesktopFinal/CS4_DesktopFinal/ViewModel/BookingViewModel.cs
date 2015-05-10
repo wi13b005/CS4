@@ -29,7 +29,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String Name
         {
             get { return name; }
-            set { name = value; }
+            set { name = value; RaisePropertyChanged(); }
         }
 
         private int from;
@@ -37,7 +37,7 @@ namespace CS4_DesktopFinal.ViewModel
         public int From
         {
             get { return from; }
-            set { from = value; }
+            set { from = value; RaisePropertyChanged(); }
         }
 
         private int till;
@@ -45,7 +45,7 @@ namespace CS4_DesktopFinal.ViewModel
         public int Till
         {
             get { return till; }
-            set { till = value; }
+            set { till = value; RaisePropertyChanged(); }
         }
 
         private String treatment;
@@ -53,7 +53,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String Treatment
         {
             get { return treatment; }
-            set { treatment = value; }
+            set { treatment = value; RaisePropertyChanged(); }
         }
         
         

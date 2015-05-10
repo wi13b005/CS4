@@ -1,7 +1,6 @@
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.exe.config
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.exe
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.pdb
-C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.csprojResolveAssemblyReference.cache
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\MainWindow.baml
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\MainWindow.g.cs
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\App.g.cs

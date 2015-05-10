@@ -73,6 +73,7 @@
     <Compile Include="ViewModel\EHR1ViewModel.cs" />
     <Compile Include="ViewModel\EHR2ViewModel.cs" />
     <Compile Include="ViewModel\EHRViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Page Include="MainWindow.xaml">
