@@ -54,5 +54,10 @@ namespace CS4_DesktopFinal
         {
 
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
