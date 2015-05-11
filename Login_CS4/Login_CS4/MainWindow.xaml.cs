@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,31 +26,12 @@ namespace Login_CS4
             InitializeComponent();
         }
 
-        private void LoginBTN_Click(object sender, RoutedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            if (!usernameTB.Text.Equals("") && !PasswordBoxPB.Password.Equals(""))
-            {
-                if (usernameTB.Text.Equals("1") && PasswordBoxPB.Password.Equals("1"))
-                {
-                   
-
-                    LoginBTN.Visibility = Visibility.Collapsed;
-                    logoutBTN.Visibility = Visibility.Visible;
-                }
-                else
-                    MessageBox.Show("Wrong Password");
-            }
-            else
-                MessageBox.Show("Wrong Username");
+            Scheduler NewWindow = new Scheduler();
+            NewWindow.Show();
         }
 
-        private void logoutBTN_Click(object sender, RoutedEventArgs e)
-        {
-           
-            LoginBTN.Visibility = Visibility.Visible;
-            logoutBTN.Visibility = Visibility.Collapsed;
-        }
-
-
+      
     }
 }

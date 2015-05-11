@@ -33,7 +33,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String Firstname
         {
             get { return firstname; }
-            set { firstname = value; }
+            set { firstname = value; RaisePropertyChanged(); }
         }
 
         private String lastname;
@@ -41,7 +41,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String Lastname
         {
             get { return lastname; }
-            set { lastname = value; }
+            set { lastname = value; RaisePropertyChanged(); }
         }
 
         private int ssn;
@@ -49,7 +49,7 @@ namespace CS4_DesktopFinal.ViewModel
         public int SSN
         {
             get { return ssn; }
-            set { ssn = value; }
+            set { ssn = value; RaisePropertyChanged(); }
         }
 
         private String address;
@@ -57,7 +57,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String Address
         {
             get { return address; }
-            set { address = value; }
+            set { address = value; RaisePropertyChanged(); }
         }
 
         private String history;
@@ -65,7 +65,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String History
         {
             get { return history; }
-            set { history = value; }
+            set { history = value; RaisePropertyChanged(); }
         }
 
         private String allergies;
@@ -73,14 +73,14 @@ namespace CS4_DesktopFinal.ViewModel
         public String Allergies
         {
             get { return allergies; }
-            set { allergies = value; }
+            set { allergies = value; RaisePropertyChanged(); }
         }
         private String prevMedication;
 
         public String PrevMedication
         {
             get { return prevMedication; }
-            set { prevMedication = value; }
+            set { prevMedication = value; RaisePropertyChanged(); }
         }
 
         private String duringMedication;
@@ -88,7 +88,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String DuringMedication
         {
             get { return duringMedication; }
-            set { duringMedication = value; }
+            set { duringMedication = value; RaisePropertyChanged(); }
         }
 
         private String planOfCare;
@@ -96,7 +96,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String PlanOfCare
         {
             get { return planOfCare; }
-            set { planOfCare = value; }
+            set { planOfCare = value; RaisePropertyChanged(); }
         }
 
         private String physicalExam;
@@ -104,7 +104,7 @@ namespace CS4_DesktopFinal.ViewModel
         public String PhysicalExam
         {
             get { return physicalExam; }
-            set { physicalExam = value; }
+            set { physicalExam = value; RaisePropertyChanged(); }
         }
 
 
