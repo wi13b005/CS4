@@ -90,6 +90,13 @@ namespace CS4_DesktopFinal
 
         }
 
+        private void NewCustomer_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide(); //hide the MainWindow page
+            NewCustomer NewWindow = new NewCustomer();
+            NewWindow.Show();
+        }
+
         
     }
 }
