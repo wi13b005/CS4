@@ -26,6 +26,7 @@ namespace CS4_DesktopFinal
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+            this.Hide(); //hide the login page
             MainWindow NewWindow = new MainWindow();
             NewWindow.Show();
         }
