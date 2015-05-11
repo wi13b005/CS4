@@ -3,14 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="700" Width="1200" 
         DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
-<Grid>
+    <Grid>
         <TabControl HorizontalAlignment="Left"
 		    Height="690"
 		    Margin="10,10,10,10"
 		    VerticalAlignment="Top"
 		    Width="1290"
 		    SelectionChanged="TabControl_SelectionChanged">
-         
+
             <TabItem Header="Book Appointment">
                 <Grid Background="#FFE5E5E5" Margin="0,0,-687,-363">
                     <Grid.ColumnDefinitions>
@@ -28,7 +28,15 @@
 			       Width="471" Height="16" Grid.ColumnSpan="4" Grid.Column="1"/>
                     <Calendar HorizontalAlignment="Left" Margin="0,64,0,0" VerticalAlignment="Top" Height="168" Width="198" Grid.Column="3" Grid.ColumnSpan="2"/>
                     <Grid Grid.Column="5" HorizontalAlignment="Left" Height="379" Margin="8.8,209,-392.8,0" VerticalAlignment="Top" Width="384"/>
-                    <DataGrid HorizontalAlignment="Left" Margin="0,254,0,0" VerticalAlignment="Top" Height="349" Width="378" Grid.Column="3" RenderTransformOrigin="0.492,0.511" Grid.ColumnSpan="2"/>
+                    <DataGrid HorizontalAlignment="Left" Margin="0,254,0,0" VerticalAlignment="Top" Height="349" Width="378" AutoGenerateColumns="False" ItemsSource="{Binding Bookings}" Grid.Column="3" RenderTransformOrigin="0.492,0.511" Grid.ColumnSpan="2">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="From" Binding="{Binding From}"/>
+                            <DataGridTextColumn Header="Till" Binding="{Binding Till}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+
                     <Label Content="Book Apointment" Grid.Column="4" HorizontalAlignment="Left" Margin="357.522,22,0,0" VerticalAlignment="Top" Height="38" Width="246"/>
                     <Button Content="Edit Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="336.522,528,0,0" VerticalAlignment="Top" Width="122" Click="EditAppointment_Click"/>
                     <Button Content="Remove Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="336.522,568,0,0" VerticalAlignment="Top" Width="122" Click="DeleteAppointmet_Click"/>
@@ -45,15 +53,20 @@
             </TabItem>
             <TabItem Header="EHR">
                 <Grid Background="#FFE5E5E5">
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="50,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
-                    <ComboBox ItemsSource="{Binding EHR}" DisplayMemberPath="SearchName" HorizontalAlignment="Left" Margin="188,88,0,0" VerticalAlignment="Top" Width="193"/>
-                    <Label Content="Choose Patient" HorizontalAlignment="Left" Margin="67,88,0,0" VerticalAlignment="Top"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="481,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
-                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="672,87,0,0" VerticalAlignment="Top" Width="142" Click="NewCustomer_Click"/>
-                    <Label Content="Create new Customer" HorizontalAlignment="Left" Margin="510,84,0,0" VerticalAlignment="Top"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="57*"/>
+                        <ColumnDefinition Width="32*"/>
+                        <ColumnDefinition Width="1196*"/>
+                    </Grid.ColumnDefinitions>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="50,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354" Grid.ColumnSpan="3"/>
+                    <ComboBox ItemsSource="{Binding EHR}" DisplayMemberPath="SearchName" HorizontalAlignment="Left" Margin="98.522,88,0,0" VerticalAlignment="Top" Width="193" Grid.Column="2"/>
+                    <Label Content="Choose Patient" HorizontalAlignment="Left" Margin="9.2,88,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="391.522,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354" Grid.Column="2"/>
+                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="582.522,87,0,0" VerticalAlignment="Top" Width="142" Click="NewCustomer_Click" Grid.Column="2"/>
+                    <Label Content="Create new Customer" HorizontalAlignment="Left" Margin="420.522,84,0,0" VerticalAlignment="Top" Grid.Column="2"/>
                 </Grid>
             </TabItem>
-            
+
             <TabItem Header="(for later use)">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
