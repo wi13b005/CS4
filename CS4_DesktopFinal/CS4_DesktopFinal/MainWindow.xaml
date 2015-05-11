@@ -13,8 +13,8 @@
             <TabItem Header="Login" Margin="0,0,-4.4,-2">
                 <Grid Background="#FFE5E5E5" Margin="0,-1,-684,-361">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="91*"/>
-                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1925*"/>
+                        <ColumnDefinition Width="43*"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock HorizontalAlignment="Left"
 			       Margin="10,10,0,0"
