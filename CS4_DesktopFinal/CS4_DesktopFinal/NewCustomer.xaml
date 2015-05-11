@@ -1,0 +1,41 @@
+﻿<Window x:Class="CS4_DesktopFinal.NewCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="1200" 
+        DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
+    <Grid>
+        <TabControl HorizontalAlignment="Left"
+		    Height="690"
+		    Margin="10,10,10,10"
+		    VerticalAlignment="Top"
+		    Width="1290"
+		    SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="EHR">
+            <Grid Background="#FFE5E5E5">
+                <Image Source="Images/body.png" HorizontalAlignment="Left" Height="366" Margin="74,228,0,0" VerticalAlignment="Top" Width="194"/>
+                <Label Content="Firstname" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
+                <Label Content="Lastname" HorizontalAlignment="Left" Margin="44,110,0,0" VerticalAlignment="Top"/>
+                <Label Content="SSN" HorizontalAlignment="Left" Margin="44,141,0,0" VerticalAlignment="Top"/>
+                <Label Content="Address" HorizontalAlignment="Left" Margin="44,172,0,0" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Margin="128,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="128,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="128,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="128,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                <Label Content="History" HorizontalAlignment="Left" Margin="444,30,0,0" VerticalAlignment="Top"/>
+                <Label Content="known Allergies" HorizontalAlignment="Left" Margin="444,154,0,0" VerticalAlignment="Top"/>
+                <Label Content="previous Medication" HorizontalAlignment="Left" Margin="444,290,0,0" VerticalAlignment="Top"/>
+                <Label Content="medication during treatment" HorizontalAlignment="Left" Margin="746,290,0,0" VerticalAlignment="Top"/>
+                <Label Content="information relating to plan of care" HorizontalAlignment="Left" Margin="746,154,0,0" VerticalAlignment="Top"/>
+                <Label Content="physical examination" HorizontalAlignment="Left" Margin="746,30,0,0" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Height="77" Margin="444,56,0,0" TextWrapping="Wrap" Text="add History..." VerticalAlignment="Top" Width="260"/>
+                <TextBox HorizontalAlignment="Left" Height="82" Margin="444,184,0,0" TextWrapping="Wrap" Text="add allergies..." VerticalAlignment="Top" Width="260" TextChanged="TextBox_TextChanged_1"/>
+                <TextBox HorizontalAlignment="Left" Height="77" Margin="444,316,0,0" TextWrapping="Wrap" Text="add previous medication... " VerticalAlignment="Top" Width="260"/>
+                <TextBox HorizontalAlignment="Left" Height="77" Margin="746,56,0,0" TextWrapping="Wrap" Text="add examination..." VerticalAlignment="Top" Width="267"/>
+                <TextBox HorizontalAlignment="Left" Height="82" Margin="746,184,0,0" TextWrapping="Wrap" Text="information according to plan..." VerticalAlignment="Top" Width="267"/>
+                <TextBox HorizontalAlignment="Left" Height="77" Margin="746,316,0,0" TextWrapping="Wrap" Text="medication during treatment..." VerticalAlignment="Top" Width="267"/>
+                    <Button Content="create Patient" HorizontalAlignment="Left" Margin="444,452,0,0" VerticalAlignment="Top" Width="118" Height="32" Click="CreatePatient_Click"/>
+            </Grid>
+        </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
