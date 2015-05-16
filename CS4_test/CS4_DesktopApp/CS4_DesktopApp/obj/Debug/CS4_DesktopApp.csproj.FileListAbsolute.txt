@@ -27,3 +27,6 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\CS4_DesktopApp\CS4_DesktopApp\obj
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\CS4_DesktopApp\CS4_DesktopApp\obj\Debug\CS4_DesktopApp.csproj.GenerateResource.Cache
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\CS4_DesktopApp\CS4_DesktopApp\obj\Debug\CS4_DesktopApp.exe
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\CS4_DesktopApp\CS4_DesktopApp\obj\Debug\CS4_DesktopApp.pdb
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_test\CS4_DesktopApp\CS4_DesktopApp\bin\Debug\CS4_DesktopApp.exe.config
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_test\CS4_DesktopApp\CS4_DesktopApp\obj\Debug\CS4_DesktopApp.exe
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_test\CS4_DesktopApp\CS4_DesktopApp\obj\Debug\CS4_DesktopApp.pdb
