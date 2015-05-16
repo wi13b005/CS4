@@ -56,3 +56,4 @@ D:\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Scheduler.g.cs
 D:\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4_Content.g.cs
 D:\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4.exe.licenses
 D:\GitHub\CS4\Login_CS4\Login_CS4\bin\Debug\DevExpress.Images.v14.2.dll
+C:\Users\Susanne\Documents\GitHub\CS4\Login_CS4\Login_CS4\obj\Debug\Login_CS4_Content.g.cs
