@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.CommandWpf;
 using System.Collections.ObjectModel;
 
 namespace CS4_DesktopFinal.ViewModel
@@ -69,6 +70,10 @@ namespace CS4_DesktopFinal.ViewModel
 
             generateTestData();
         }
+
+
+       
+
 
         private void generateTestData()
         {
