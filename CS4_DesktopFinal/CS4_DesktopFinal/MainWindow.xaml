@@ -45,7 +45,7 @@
                     <Button Content="Edit Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="336.522,528,0,0" VerticalAlignment="Top" Width="122" Click="EditAppointment_Click"/>
                     <Button Content="Remove Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="336.522,568,0,0" VerticalAlignment="Top" Width="122" Click="DeleteAppointmet_Click"/>
 
-                    <DatePicker Grid.Column="4" HorizontalAlignment="Left" Margin="594.522,209,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" DataContext="{Binding SelectedDate.Date}">
+                    <DatePicker Grid.Column="4" HorizontalAlignment="Left" Margin="594.522,209,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" IsTodayHighlighted="True">
                         <DatePicker.BlackoutDates>
                             <CalendarDateRange Start="12/31/2016" End="01/01/2025"/>
                             <CalendarDateRange Start="12/31/2000" End="01/01/2015"/>
