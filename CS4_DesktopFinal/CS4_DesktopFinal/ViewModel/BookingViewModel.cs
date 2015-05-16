@@ -15,12 +15,13 @@ namespace CS4_DesktopFinal.ViewModel
 
         }
 
-        public BookingViewModel(String n, int from, int till, String t)
+        public BookingViewModel(String n, int from, int till, String t, DateTime d)
         {
             Name = n;
             From = from;
             Till = till;
             Treatment = t;
+            Date = d;
         }
 
 
