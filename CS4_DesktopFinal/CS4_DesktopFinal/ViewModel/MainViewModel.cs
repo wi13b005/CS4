@@ -72,8 +72,15 @@ namespace CS4_DesktopFinal.ViewModel
         }
 
 
-       
 
+        private BookingViewModel selectedDate;
+
+        public BookingViewModel SelectedDate
+        {
+            get { return selectedDate; }
+            set { selectedDate = value; RaisePropertyChanged(); }
+        }
+        
 
         private void generateTestData()
         {
@@ -116,6 +123,8 @@ namespace CS4_DesktopFinal.ViewModel
                 PrevMedication ="nothing"
                
             });
+
+
 
             
 

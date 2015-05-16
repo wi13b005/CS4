@@ -55,6 +55,20 @@ namespace CS4_DesktopFinal.ViewModel
             get { return treatment; }
             set { treatment = value; RaisePropertyChanged(); }
         }
+
+        private DateTime date;
+
+        public DateTime Date
+        {
+            get { return date; }
+            set { date = value; RaisePropertyChanged(); }
+        }
+
+        public DateTime myTime
+        {
+            get { return DateTime.Today.AddDays(-6); }
+        }
+        
         
         
     }

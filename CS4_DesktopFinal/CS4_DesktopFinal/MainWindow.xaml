@@ -1,15 +1,16 @@
-﻿<Window x:Class="CS4_DesktopFinal.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ViewModel="clr-namespace:CS4_DesktopFinal.ViewModel"  x:Class="CS4_DesktopFinal.MainWindow"
         Title="MainWindow" Height="700" Width="1200" 
-        DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
+        DataContext="{Binding Main, Source={StaticResource Locator}}">
     <Grid>
         <TabControl HorizontalAlignment="Left"
-		    Height="690"
-		    Margin="10,10,10,10"
-		    VerticalAlignment="Top"
-		    Width="1290"
-		    SelectionChanged="TabControl_SelectionChanged">
+			Height="690"
+			Margin="10,10,10,10"
+			VerticalAlignment="Top"
+			Width="1290"
+			SelectionChanged="TabControl_SelectionChanged">
 
             <TabItem Header="Book Appointment">
                 <Grid Background="#FFE5E5E5" Margin="0,0,-687,-363">
@@ -22,11 +23,14 @@
                         <ColumnDefinition Width="0*"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock HorizontalAlignment="Left"
-			       Margin="6,10,0,0"
-			       TextWrapping="Wrap"
-			       VerticalAlignment="Top"
-			       Width="471" Height="16" Grid.ColumnSpan="4" Grid.Column="1"/>
-                    <Calendar HorizontalAlignment="Left" Margin="0,64,0,0" VerticalAlignment="Top" Height="168" Width="198" Grid.Column="3" Grid.ColumnSpan="2"/>
+						Margin="6,10,0,0"
+						TextWrapping="Wrap"
+						VerticalAlignment="Top"
+						Width="471" Height="16" Grid.ColumnSpan="4" Grid.Column="1"/>
+                    <Calendar 
+                        DisplayDateStart= "01/01/2015"
+                        DisplayDateEnd="12/31/2016"
+                        SelectionMode="SingleDate" HorizontalAlignment="Left" Margin="0,64,0,0" VerticalAlignment="Top" Height="168" Width="198" Grid.Column="3" Grid.ColumnSpan="2"/>
                     <Grid Grid.Column="5" HorizontalAlignment="Left" Height="379" Margin="8.8,209,-392.8,0" VerticalAlignment="Top" Width="384"/>
                     <DataGrid HorizontalAlignment="Left" Margin="0,254,0,0" VerticalAlignment="Top" Height="349" Width="378" AutoGenerateColumns="False" ItemsSource="{Binding Bookings}" Grid.Column="3" RenderTransformOrigin="0.492,0.511" Grid.ColumnSpan="2">
                         <DataGrid.Columns>
@@ -40,7 +44,18 @@
                     <Label Content="Book Apointment" Grid.Column="4" HorizontalAlignment="Left" Margin="357.522,22,0,0" VerticalAlignment="Top" Height="38" Width="246"/>
                     <Button Content="Edit Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="336.522,528,0,0" VerticalAlignment="Top" Width="122" Click="EditAppointment_Click"/>
                     <Button Content="Remove Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="336.522,568,0,0" VerticalAlignment="Top" Width="122" Click="DeleteAppointmet_Click"/>
-                    <DatePicker Grid.Column="4" HorizontalAlignment="Left" Margin="594.522,209,0,0" VerticalAlignment="Top"/>
+
+                    <DatePicker Grid.Column="4" HorizontalAlignment="Left" Margin="594.522,209,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" DataContext="{Binding SelectedDate.Date}">
+                        <DatePicker.BlackoutDates>
+                            <CalendarDateRange Start="12/31/2016" End="01/01/2025"/>
+                            <CalendarDateRange Start="12/31/2000" End="01/01/2015"/>
+                        </DatePicker.BlackoutDates>
+
+
+                     
+
+
+                    </DatePicker>
                     <TextBox Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="732.522,209,0,0" TextWrapping="Wrap" Text="12:00"  VerticalAlignment="Top" Width="44"/>
                     <TextBox Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="732.522,237,0,0" TextWrapping="Wrap" Text="13:00" VerticalAlignment="Top" Width="44"/>
                     <ComboBox ItemsSource="{Binding Bookings}" DisplayMemberPath="Treatment" Grid.Column="4" HorizontalAlignment="Left" Margin="685.522,285,0,0" VerticalAlignment="Top" Width="131"/>
@@ -70,11 +85,11 @@
             <TabItem Header="(for later use)">
                 <Grid Background="#FFE5E5E5">
                     <TextBlock HorizontalAlignment="Left"
-			       Margin="10"
-			       TextWrapping="Wrap"
-			       Text="has to be hidden; after inserting name into 'search for patient' in tab EHR you can see this tab"
-			       VerticalAlignment="Top"
-			       Width="471"/>
+						Margin="10"
+						TextWrapping="Wrap"
+						Text="has to be hidden; after inserting name into 'search for patient' in tab EHR you can see this tab"
+						VerticalAlignment="Top"
+						Width="471"/>
                 </Grid>
             </TabItem>
         </TabControl>
