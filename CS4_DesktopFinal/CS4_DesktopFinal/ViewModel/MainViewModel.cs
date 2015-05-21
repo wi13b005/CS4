@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.CommandWpf;
 using System.Collections.ObjectModel;
 
 namespace CS4_DesktopFinal.ViewModel
@@ -70,6 +71,17 @@ namespace CS4_DesktopFinal.ViewModel
             generateTestData();
         }
 
+
+
+        private BookingViewModel selectedDate;
+
+        public BookingViewModel SelectedDate
+        {
+            get { return selectedDate; }
+            set { selectedDate = value; RaisePropertyChanged(); }
+        }
+        
+
         private void generateTestData()
         {
             Bookings.Add(new BookingViewModel() 
@@ -111,6 +123,8 @@ namespace CS4_DesktopFinal.ViewModel
                 PrevMedication ="nothing"
                
             });
+
+
 
             
 
