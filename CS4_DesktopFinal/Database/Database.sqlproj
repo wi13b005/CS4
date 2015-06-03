@@ -74,5 +74,7 @@
     <Build Include="Tables\Order_1.sql" />
     <Build Include="Tables\Consult.sql" />
     <Build Include="Tables\Treatment_1.sql" />
+    <Build Include="Tables\Product.sql" />
+    <Build Include="Tables\Line_Item.sql" />
   </ItemGroup>
 </Project>
