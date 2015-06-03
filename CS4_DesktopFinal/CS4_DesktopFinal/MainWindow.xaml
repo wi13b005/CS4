@@ -12,7 +12,14 @@
 			Width="1290"
 			SelectionChanged="TabControl_SelectionChanged">
 
-            <TabItem Header="Book Appointment">
+            <TabItem Header="Book Appointment" FontFamily="Papyrus">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB"/>
+                        <GradientStop Color="#FF109564" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
                 <Grid Margin="0,0,-687,-363">
                     <Grid.Background>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -24,21 +31,31 @@
                         <ColumnDefinition Width="4*"/>
                         <ColumnDefinition Width="16*"/>
                         <ColumnDefinition Width="24*"/>
-                        <ColumnDefinition Width="124*"/>
-                        <ColumnDefinition Width="1803*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="88*"/>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="47*"/>
+                        <ColumnDefinition Width="1752*"/>
                         <ColumnDefinition Width="0*"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock HorizontalAlignment="Left"
 						Margin="6,10,0,0"
 						TextWrapping="Wrap"
 						VerticalAlignment="Top"
-						Width="471" Height="16" Grid.ColumnSpan="4" Grid.Column="1"/>
+						Width="471" Height="16" Grid.ColumnSpan="7" Grid.Column="1"/>
                     <Calendar 
                         DisplayDateStart= "01/01/2015"
                         DisplayDateEnd="12/31/2016"
-                        SelectionMode="SingleDate" HorizontalAlignment="Left" Margin="0,64,0,0" VerticalAlignment="Top" Height="168" Width="198" Grid.Column="3" Grid.ColumnSpan="2"/>
-                    <Grid Grid.Column="5" HorizontalAlignment="Left" Height="379" Margin="8.8,209,-392.8,0" VerticalAlignment="Top" Width="384"/>
-                    <DataGrid HorizontalAlignment="Left" Margin="0,254,0,0" VerticalAlignment="Top" Height="349" Width="378" AutoGenerateColumns="False" ItemsSource="{Binding Bookings}" FontFamily="Segoe Print" Grid.Column="3" RenderTransformOrigin="0.492,0.511" Grid.ColumnSpan="2">
+                        SelectionMode="SingleDate" HorizontalAlignment="Left" Margin="0,64,0,0" VerticalAlignment="Top" Height="168" Width="198" Grid.Column="3" Grid.ColumnSpan="5"/>
+                    <Grid Grid.Column="8" HorizontalAlignment="Left" Height="379" Margin="9,209,-393,0" VerticalAlignment="Top" Width="384"/>
+                    <DataGrid HorizontalAlignment="Left"  Margin="0,254,0,0" VerticalAlignment="Top" Height="349" Width="378" AutoGenerateColumns="False" FontFamily="Papyrus" ItemsSource="{Binding Bookings}"  Grid.Column="3" RenderTransformOrigin="0.492,0.511" Grid.ColumnSpan="5">
+                        <DataGrid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FFBCFFEA" Offset="1"/>
+                                <GradientStop Color="#FFBAFCE7" Offset="0.817"/>
+                            </LinearGradientBrush>
+                        </DataGrid.Background>
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                             <DataGridTextColumn Header="From" Binding="{Binding From}"/>
@@ -47,8 +64,8 @@
                     </DataGrid>
 
 
-                    <Label Content="Book Apointment" Grid.Column="4" HorizontalAlignment="Left" Margin="357.522,22,0,0" VerticalAlignment="Top" Height="38" Width="246" FontFamily="Segoe Print" FontSize="16" FontWeight="Bold" Foreground="#FFF5F1F1"/>
-                    <Button Content="Edit Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="337,528,0,0" VerticalAlignment="Top" Width="154" Click="EditAppointment_Click" FontFamily="Segoe Print">
+                    <Label Content="Book Apointment" Grid.Column="7" HorizontalAlignment="Left" Margin="311,22,0,0" VerticalAlignment="Top" Height="38" Width="246" FontFamily="Papyrus" FontSize="16" Foreground="#FFF5F1F1" FontWeight="Bold"/>
+                    <Button Content="Edit Appointment" Grid.Column="7" HorizontalAlignment="Left" Margin="290,528,0,0" VerticalAlignment="Top" Width="154" Click="EditAppointment_Click" FontFamily="Papyrus" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                                 <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -58,7 +75,7 @@
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-                    <Button Content="Remove Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="337,568,0,0" VerticalAlignment="Top" Width="154" Click="DeleteAppointmet_Click" FontFamily="Segoe Print">
+                    <Button Content="Remove Appointment" Grid.Column="7" HorizontalAlignment="Left" Margin="290,568,0,0" VerticalAlignment="Top" Width="154" Click="DeleteAppointmet_Click" FontFamily="Papyrus" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                                 <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -69,7 +86,7 @@
                         </Button.Background>
                     </Button>
 
-                    <DatePicker Grid.Column="4" HorizontalAlignment="Left" Margin="594.522,209,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" IsTodayHighlighted="True">
+                    <DatePicker Grid.Column="7" HorizontalAlignment="Left" Margin="548,209,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" IsTodayHighlighted="True">
                         <DatePicker.BlackoutDates>
                             <CalendarDateRange Start="12/31/2016" End="01/01/2025"/>
                             <CalendarDateRange Start="12/31/2000" End="01/01/2015"/>
@@ -80,12 +97,12 @@
 
 
                     </DatePicker>
-                    <TextBox Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="732.522,209,0,0" TextWrapping="Wrap" Text="12:00"  VerticalAlignment="Top" Width="44"/>
-                    <TextBox Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="732.522,237,0,0" TextWrapping="Wrap" Text="13:00" VerticalAlignment="Top" Width="44"/>
-                    <ComboBox ItemsSource="{Binding Bookings}" DisplayMemberPath="Treatment" Grid.Column="4" HorizontalAlignment="Left" Margin="685.522,285,0,0" VerticalAlignment="Top" Width="131"/>
-                    <Label Content="Treatment" Foreground="White" FontFamily="Segoe Print" Grid.Column="4" HorizontalAlignment="Left" Margin="594.522,285,0,0" VerticalAlignment="Top"/>
-                    <Border BorderBrush="Black" BorderThickness="1" Grid.Column="4" HorizontalAlignment="Left" Height="266" Margin="585.522,142,0,0" VerticalAlignment="Top" Width="254"/>
-                    <Button Content="Save Appointment" Grid.Column="4" HorizontalAlignment="Left" Margin="671,360,0,0" VerticalAlignment="Top" Width="127" Click="SaveAppointment_Click" FontFamily="Segoe Print">
+                    <TextBox Grid.Column="7" HorizontalAlignment="Left" Height="23" Margin="686,209,0,0" TextWrapping="Wrap" Text="12:00"  VerticalAlignment="Top" Width="44"/>
+                    <TextBox Grid.Column="7" HorizontalAlignment="Left" Height="23" Margin="686,237,0,0" TextWrapping="Wrap" Text="13:00" VerticalAlignment="Top" Width="44"/>
+                    <ComboBox ItemsSource="{Binding Bookings}" DisplayMemberPath="Treatment" Grid.Column="7" HorizontalAlignment="Left" Margin="639,285,0,0" VerticalAlignment="Top" Width="131"/>
+                    <Label Content="Treatment" Foreground="White" FontFamily="Papyrus" Grid.Column="7" HorizontalAlignment="Left" Margin="548,285,0,0" VerticalAlignment="Top"/>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Column="7" HorizontalAlignment="Left" Height="266" Margin="539,142,0,0" VerticalAlignment="Top" Width="254"/>
+                    <Button Content="Save Appointment" Grid.Column="7" HorizontalAlignment="Left" Margin="624,360,0,0" VerticalAlignment="Top" Width="127" Click="SaveAppointment_Click" FontFamily="Papyrus" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                                 <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -95,35 +112,93 @@
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-                    <Label Content="Select a Patient" Grid.Column="4" HorizontalAlignment="Left" Margin="586,155,0,0" VerticalAlignment="Top" FontFamily="Segoe Script" Width="121" Foreground="#FFFDF8F8"/>
-                    <ComboBox ItemsSource="{Binding Bookings}" DisplayMemberPath="Name" Grid.Column="4" HorizontalAlignment="Left" Margin="696.522,155,0,0" VerticalAlignment="Top" Width="120"/>
-                    <Image Grid.Column="4" HorizontalAlignment="Left" Source="Images\herbal.jpg" Height="168" Margin="79,64,0,0" VerticalAlignment="Top" Width="192"/>
+                    <Label Content="Select a Patient" Grid.Column="7" HorizontalAlignment="Left" Margin="539,155,0,0" VerticalAlignment="Top" FontFamily="Papyrus" Width="121" Foreground="#FFFDF8F8"/>
+                    <ComboBox ItemsSource="{Binding Bookings}" DisplayMemberPath="Name" Grid.Column="7" HorizontalAlignment="Left" Margin="650,155,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Image Grid.Column="7" HorizontalAlignment="Left" Source="Images\homeopathic_medicine.jpg" Height="168" Margin="32,68,0,0" VerticalAlignment="Top" Width="249"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="EHR">
-                <Grid Background="#FFE5E5E5">
+            <TabItem Header="EHR" FontFamily="Papyrus">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF9F9F9" Offset="0"/>
+                        <GradientStop Color="#FF20B27D" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="#FF20B27D" Offset="0.6"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="57*"/>
                         <ColumnDefinition Width="32*"/>
                         <ColumnDefinition Width="1196*"/>
                     </Grid.ColumnDefinitions>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="50,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354" Grid.ColumnSpan="3"/>
-                    <ComboBox ItemsSource="{Binding EHR}" DisplayMemberPath="SearchName" HorizontalAlignment="Left" Margin="98.522,88,0,0" VerticalAlignment="Top" Width="193" Grid.Column="2"/>
-                    <Label Content="Choose Patient" HorizontalAlignment="Left" Margin="9.2,88,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="391.522,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354" Grid.Column="2"/>
-                    <Button Content="Create new Customer" HorizontalAlignment="Left" Margin="582.522,87,0,0" VerticalAlignment="Top" Width="142" Click="NewCustomer_Click" Grid.Column="2"/>
-                    <Label Content="Create new Customer" HorizontalAlignment="Left" Margin="420.522,84,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                    <Rectangle HorizontalAlignment="Left" Height="70" Margin="50,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354" Grid.ColumnSpan="3">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF20B27D" Offset="0.674"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <ComboBox ItemsSource="{Binding EHR}" DisplayMemberPath="SearchName" HorizontalAlignment="Left" Margin="98.522,88,0,0" VerticalAlignment="Top" Width="193" Grid.Column="2">
+                        <ComboBox.Foreground>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF22AC61" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Foreground>
+                    </ComboBox>
+                    <Label Content="Choose Patient" HorizontalAlignment="Left" Margin="9.2,88,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2" FontFamily="Papyrus" Foreground="#FFF0E7E7"/>
+                    <Rectangle HorizontalAlignment="Left" Height="70" Margin="391.522,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="354" Grid.Column="2">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF20B27D" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Button Content="Create new Patient" HorizontalAlignment="Left" Margin="582.522,87,0,0" VerticalAlignment="Top" Width="142" Click="NewCustomer_Click" Grid.Column="2" FontFamily="Papyrus" FontWeight="Bold">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                                <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                                <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                                <GradientStop Color="#FF119B56" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Label Content="Create new Patient" HorizontalAlignment="Left" Margin="420.522,84,0,0" VerticalAlignment="Top" Grid.Column="2" FontFamily="Papyrus" Foreground="#FFFBF0F0"/>
                 </Grid>
             </TabItem>
 
-            <TabItem Header="(for later use)">
-                <Grid Background="#FFE5E5E5">
+            <TabItem Header="(for later use)" FontFamily="Papyrus">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White"/>
+                        <GradientStop Color="#FF20B27D" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="141*"/>
+                        <ColumnDefinition Width="1139*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="#FF20B27D" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
                     <TextBlock HorizontalAlignment="Left"
-						Margin="10"
+						Margin="10,10,0,0"
 						TextWrapping="Wrap"
 						Text="has to be hidden; after inserting name into 'search for patient' in tab EHR you can see this tab"
 						VerticalAlignment="Top"
-						Width="471"/>
+						Width="471" Foreground="#FFFDF4F4" Grid.ColumnSpan="2"/>
                 </Grid>
             </TabItem>
         </TabControl>
