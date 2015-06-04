@@ -80,6 +80,21 @@ namespace CS4_DesktopFinal.ViewModel
             get { return selectedDate; }
             set { selectedDate = value; RaisePropertyChanged(); }
         }
+
+        private ViewModelBase previousVM = null;
+        public ViewModelBase PreviousVM
+        {
+            get { return previousVM; }
+            set { previousVM = value; RaisePropertyChanged(); }
+        }
+
+        private ViewModelBase viewModelBinding = null;
+
+        public ViewModelBase ViewModelBinding
+        {
+            get { return viewModelBinding; }
+            set { viewModelBinding = value; RaisePropertyChanged(); }
+        }
         
 
         private void generateTestData()
