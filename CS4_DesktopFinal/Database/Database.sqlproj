@@ -60,10 +60,21 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Patient.sql" />
-    <Build Include="Tables\Booking.sql" />
+    <RefactorLog Include="Database.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="Database.refactorlog" />
+    <Build Include="Tables\Expert.sql" />
+    <Build Include="Tables\User.sql" />
+    <Build Include="Tables\Admin.sql" />
+    <Build Include="Tables\Customer.sql" />
+    <Build Include="Tables\Bookings_1.sql" />
+    <Build Include="Tables\Problem.sql" />
+    <Build Include="Tables\Body_Part.sql" />
+    <Build Include="Tables\Record.sql" />
+    <Build Include="Tables\Order_1.sql" />
+    <Build Include="Tables\Consult.sql" />
+    <Build Include="Tables\Treatment_1.sql" />
+    <Build Include="Tables\Product.sql" />
+    <Build Include="Tables\Line_Item.sql" />
   </ItemGroup>
 </Project>
