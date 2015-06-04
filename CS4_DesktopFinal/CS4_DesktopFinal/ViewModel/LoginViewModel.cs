@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.Ioc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GalaSoft.MvvmLight;
-using GalaSoft.MvvmLight.CommandWpf;
-using GalaSoft.MvvmLight.Ioc;
-
 namespace CS4_DesktopFinal.ViewModel
 {
     public class LoginViewModel:ViewModelBase
@@ -17,7 +19,7 @@ namespace CS4_DesktopFinal.ViewModel
         {
             //Check login data
             //If correct --> Set ViewModel to MainVM
-            SimpleIoc.Default.GetInstance<MainViewModel>().ViewModelBinding = SimpleIoc.Default.GetInstance<MainVM>();
+           // SimpleIoc.Default.GetInstance<MainViewModel>().ViewModelBinding = SimpleIoc.Default.GetInstance<MainVM>();
         }
         private bool Able()
         {
@@ -25,10 +27,7 @@ namespace CS4_DesktopFinal.ViewModel
         }
 
 
-        public LoginViewModel()
-        {
-
-        }
+      
 
         public LoginViewModel(String u, String p)
         {
