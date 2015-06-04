@@ -68,6 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\PatientList.cs" />
     <Compile Include="Model\Patient.cs" />
     <Compile Include="NewCustomer.xaml.cs">
@@ -75,13 +78,17 @@
     </Compile>
     <Compile Include="ViewModel\BookingViewModel.cs" />
     <Compile Include="ViewModel\EditViewModel.cs" />
-    <Compile Include="ViewModel\EHR1ViewModel.cs" />
+    <Compile Include="ViewModel\NewCustomerViewModel.cs" />
     <Compile Include="ViewModel\EHR2ViewModel.cs" />
     <Compile Include="ViewModel\EHRViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MainVM.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -146,7 +153,13 @@
   <ItemGroup>
     <Resource Include="Images\body.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\body_model.png" />
+    <Resource Include="Images\herbal.jpg" />
+    <Resource Include="Images\herbalLogo.png" />
+    <Resource Include="Images\homeopathic_medicine.jpg" />
+    <Resource Include="Images\natural-treatment.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

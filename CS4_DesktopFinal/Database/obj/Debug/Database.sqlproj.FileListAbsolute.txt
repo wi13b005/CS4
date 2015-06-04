@@ -1,5 +1,9 @@
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\bin\Debug\Database.dacpac
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\bin\Debug\Database.dll
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\bin\Debug\Database.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\Model.xml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\refactor.xml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\postdeploy.sql
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\predeploy.sql
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\Database.dll
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\Database.pdb

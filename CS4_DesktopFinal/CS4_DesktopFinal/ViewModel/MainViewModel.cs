@@ -36,9 +36,9 @@ namespace CS4_DesktopFinal.ViewModel
             set { ehr = value; }
         }
 
-        private ObservableCollection<EHR1ViewModel> ehr1;
+        private ObservableCollection<NewCustomerViewModel> ehr1;
 
-        public ObservableCollection<EHR1ViewModel> EHR1
+        public ObservableCollection<NewCustomerViewModel> EHR1
         {
             get { return ehr1; }
             set { ehr1 = value; }
@@ -64,7 +64,7 @@ namespace CS4_DesktopFinal.ViewModel
         {
             Bookings = new ObservableCollection<BookingViewModel>();
             EHR = new ObservableCollection<EHRViewModel>();
-            EHR1 = new ObservableCollection<EHR1ViewModel>();
+            EHR1 = new ObservableCollection<NewCustomerViewModel>();
             EHR2 = new ObservableCollection<EHR2ViewModel>();
             Login = new ObservableCollection<LoginViewModel>();
 
@@ -110,7 +110,7 @@ namespace CS4_DesktopFinal.ViewModel
                 SearchName = "Palatschinke"
             });
 
-            EHR1.Add(new EHR1ViewModel() 
+            EHR1.Add(new NewCustomerViewModel() 
             {
                 Address = "Mainstreet 2, 3456 Auckland",
                 Allergies = "nothing",
