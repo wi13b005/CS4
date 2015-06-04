@@ -120,6 +120,6 @@ namespace CS4_DesktopFinal.ViewModel
             //Go back to Main
             SimpleIoc.Default.GetInstance<MainViewModel>().ViewModelBinding = SimpleIoc.Default.GetInstance<MainViewModel>().PreviousVM;
         }
-
+        
     }
 }
