@@ -1,0 +1,8 @@
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\bin\Debug\Shared.dll
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\ConsoleApplication\bin\Debug\Shared.pdb

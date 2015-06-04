@@ -9,6 +9,6 @@
     <Application.Resources>
         <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" xmlns:vm="clr-namespace:CS4_DesktopFinal.ViewModel" />
 
-        <c:BoolToVisibilityConverter xmlns:c="clr-namespace:CS4_DesktopFinal.Converter" x:Key="BoolToVisibilityConverter" />
+       
     </Application.Resources>
 </Application>

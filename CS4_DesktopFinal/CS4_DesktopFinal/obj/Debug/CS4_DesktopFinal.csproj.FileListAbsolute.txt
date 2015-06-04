@@ -48,3 +48,11 @@ C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Login.g.cs
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\NewCustomer.g.cs
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.csprojResolveAssemblyReference.cache
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\EditView.baml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\EditView.g.cs
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\LoginView.baml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\MainView.baml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\LoginView.g.cs
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\MainView.g.cs
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\NewCustomerView.baml
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\NewCustomerView.g.cs

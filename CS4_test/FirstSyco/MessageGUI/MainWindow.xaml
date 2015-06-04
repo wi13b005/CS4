@@ -1,0 +1,12 @@
+﻿<Window x:Class="FirstSyco.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+         DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
+    <Grid>
+        <Label Content="Filter" HorizontalAlignment="Left" Margin="24,39,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="107,39,0,0" VerticalAlignment="Top" Width="120"/>
+        <DataGrid HorizontalAlignment="Left" Margin="60,119,0,0" VerticalAlignment="Top" Height="149" Width="394" ItemsSource="{Binding Obs}"/>
+
+    </Grid>
+</Window>

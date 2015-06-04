@@ -1,0 +1,4 @@
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\Shared\bin\Debug\Shared.dll
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\Shared\bin\Debug\Shared.pdb
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\Shared\obj\Debug\Shared.dll
+C:\Users\Susanne\Documents\GitHub\CS4\CS4_test\FirstSyco\Shared\obj\Debug\Shared.pdb
