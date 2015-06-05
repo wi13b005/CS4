@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="CS4.Views.EditView"
+﻿<UserControl x:Class="CS4_DesktopFinal.Views.EditView"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

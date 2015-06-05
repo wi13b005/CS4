@@ -9,8 +9,7 @@
 		    Height="690"
 		    Margin="10,10,10,10"
 		    VerticalAlignment="Top"
-		    Width="1290"
-		    SelectionChanged="TabControl_SelectionChanged">
+		    Width="1290">
             <TabItem Header="Login" Margin="0,0,-4.4,-2" Foreground="Black" FontFamily="Papyrus" BorderBrush="#FF1AAE6B">
                 <TabItem.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

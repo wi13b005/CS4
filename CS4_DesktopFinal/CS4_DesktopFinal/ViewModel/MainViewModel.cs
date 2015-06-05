@@ -44,13 +44,7 @@ namespace CS4_DesktopFinal.ViewModel
             set { ehr1 = value; }
         }
 
-        private ObservableCollection<EHR2ViewModel> ehr2;
-
-        public ObservableCollection<EHR2ViewModel> EHR2
-        {
-            get { return ehr2; }
-            set { ehr2 = value; }
-        }
+        
         private ObservableCollection<LoginViewModel> login;
 
         public ObservableCollection<LoginViewModel> Login
@@ -65,7 +59,7 @@ namespace CS4_DesktopFinal.ViewModel
             Bookings = new ObservableCollection<BookingViewModel>();
             EHR = new ObservableCollection<EHRViewModel>();
             EHR1 = new ObservableCollection<NewCustomerViewModel>();
-            EHR2 = new ObservableCollection<EHR2ViewModel>();
+         
             Login = new ObservableCollection<LoginViewModel>();
 
             generateTestData();
@@ -79,6 +73,21 @@ namespace CS4_DesktopFinal.ViewModel
         {
             get { return selectedDate; }
             set { selectedDate = value; RaisePropertyChanged(); }
+        }
+
+        private ViewModelBase previousVM = null;
+        public ViewModelBase PreviousVM
+        {
+            get { return previousVM; }
+            set { previousVM = value; RaisePropertyChanged(); }
+        }
+
+        private ViewModelBase viewModelBinding = null;
+
+        public ViewModelBase ViewModelBinding
+        {
+            get { return viewModelBinding; }
+            set { viewModelBinding = value; RaisePropertyChanged(); }
         }
         
 
