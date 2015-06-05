@@ -7,3 +7,8 @@ C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\postde
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\predeploy.sql
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\Database.dll
 C:\Users\Susanne\Documents\GitHub\CS4\CS4_DesktopFinal\Database\obj\Debug\Database.pdb
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\Database\bin\Debug\Database.dacpac
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\Database\bin\Debug\Database.dll
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\Database\bin\Debug\Database.pdb
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\Database\obj\Debug\Database.dll
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\Database\obj\Debug\Database.pdb
