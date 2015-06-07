@@ -10,24 +10,57 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CS4_DesktopFinal.Views
+namespace CS4_DesktopFinal
 {
     /// <summary>
-    /// Interaction logic for NewCustomerView.xaml
+    /// Interaction logic for NewCustomer.xaml
     /// </summary>
-    public partial class NewCustomerView : Page
+    public partial class NewCustomer : Window
     {
-        public NewCustomerView()
+        public NewCustomer()
         {
             InitializeComponent();
         }
 
-        private void InitializeComponent()
+private void InitializeComponent()
+{
+ 	throw new NotImplementedException();
+}
+
+     
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            throw new NotImplementedException();
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void CreatePatient_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide(); //hide the EHR page
+            MainWindow NewWindow = new MainWindow();
+            NewWindow.Show();
+        }
+
+        void SaveCanvasCommandExecute(object parameter)
+        {
+            UIElement toSave = (UIElement)parameter;
+            //.. You'd probably use RenderTargetBitmap here to save toSave.
         }
     }
 }
+
+
+
+
+
