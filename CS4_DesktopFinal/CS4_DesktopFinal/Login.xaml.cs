@@ -33,49 +33,49 @@ namespace CS4_DesktopFinal
 
         protected void LoginBTN(object sender, EventArgs e)
         {
+            /*
+
+                        if (usernameTB.Text != "" && PasswordBoxPB.Password != "")
+                        {
+                            DBconnection objconn = new DBconnection();
+                            objconn.connection(); //calling connection   
+
+                            SqlCommand com = new SqlCommand("user_Sp_Login", objconn.con);
+                            com.CommandType = CommandType.StoredProcedure;
+                            com.Parameters.AddWithValue("@username", usernameTB.Text);
+                            com.Parameters.AddWithValue("@password", PasswordBoxPB.Password);
+
+                            int IsValidUser = Convert.ToInt32(com.ExecuteScalar());
+                            if (IsValidUser == 1) //if user found it returns 1  
+                            {
+                                this.Hide(); //hide the login page
+                                MainWindow NewWindow = new MainWindow();
+                                NewWindow.Show();
+
+                            }
+                            else
+                            {
+
+                                MessageBox.Show("Invalid Username or password");
+
+                            }
+                        }
+                        else
+                        {
+
+                            MessageBox.Show("Username and Password are required!");
+
+                        }
 
 
-            if (usernameTB.Text != "" && PasswordBoxPB.Password != "")
-            {
-                DBconnection objconn = new DBconnection();
-                objconn.connection(); //calling connection   
+                  
+                        */
 
-                SqlCommand com = new SqlCommand("user_Sp_Login", objconn.con);
-                com.CommandType = CommandType.StoredProcedure;
-                com.Parameters.AddWithValue("@username", usernameTB.Text);
-                com.Parameters.AddWithValue("@password", PasswordBoxPB.Password);
+            // private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+            // {
 
-                int IsValidUser = Convert.ToInt32(com.ExecuteScalar());
-                if (IsValidUser == 1) //if user found it returns 1  
-                {
-                    this.Hide(); //hide the login page
-                    MainWindow NewWindow = new MainWindow();
-                    NewWindow.Show();
-
-                }
-                else
-                {
-
-                    MessageBox.Show("Invalid Username or password");
-
-                }
-            }
-            else
-            {
-
-                MessageBox.Show("Username and Password are required!");
-
-            }
-
+            //   }
 
         }
-
-
-        // private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        // {
-
-        //   }
-
-
-    }
+        }
 }
