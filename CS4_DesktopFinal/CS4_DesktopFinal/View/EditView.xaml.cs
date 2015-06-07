@@ -24,5 +24,7 @@ namespace CS4_DesktopFinal.Views
         {
             InitializeComponent();
         }
+
+     
     }
 }
