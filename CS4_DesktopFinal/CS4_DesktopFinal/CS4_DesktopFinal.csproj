@@ -68,7 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CustomImage.cs" />
     <Compile Include="DBconnection_4.cs" />
+    <Compile Include="MainWindow.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -77,6 +79,8 @@
     </Compile>
     <Compile Include="Model\PatientList.cs" />
     <Compile Include="Model\Patient.cs" />
+    <Compile Include="TestCommand.cs" />
+    <Compile Include="TestViewModel.cs" />
     <Compile Include="ViewModel\BookingViewModel.cs" />
     <Compile Include="ViewModel\EditViewModel.cs" />
     <Compile Include="ViewModel\NewCustomerViewModel.cs" />
@@ -154,7 +158,6 @@
     <Resource Include="Images\homeopathic_medicine.jpg" />
     <Resource Include="Images\natural-treatment.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

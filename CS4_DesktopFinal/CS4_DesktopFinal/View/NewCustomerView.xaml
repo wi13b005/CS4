@@ -3,6 +3,7 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
       mc:Ignorable="d" 
       d:DesignHeight="650" d:DesignWidth="1150">
     <Grid Height="650" VerticalAlignment="Bottom">
@@ -54,13 +55,19 @@
                         </Button.Background>
                     </Button>
 
-                    <Button RenderTransformOrigin="0.562,0.75" Height="255" VerticalAlignment="Bottom" Margin="152,0,872,146">
+                    <Canvas Height="301" VerticalAlignment="Bottom" Margin="128,0,867,134">
+                        <Canvas.Background>
+                            <ImageBrush ImageSource="body_model.png"/>
+                            
+                        </Canvas.Background>
 
-                        <StackPanel>
-                            <Image x:Name="body" Source="body_model.png" Height="244" Width="246"/>
-                        </StackPanel>
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="MouseLeftButtonDoubleClickEvent">
+                                <i:InvokeCommandAction Command="{Binding Path=MyCommand}" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
 
-                    </Button>
+                    </Canvas>
 
 
 
