@@ -7,3 +7,4 @@
     [expert_id] INT NULL, 
     [D_customer_id] INT NULL
 )
+
