@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace CS4_DesktopFinal
 {
-    public class MainWindow : Window
+    public class MainWin : Window
     {
 
         #region Members
@@ -21,7 +21,7 @@ namespace CS4_DesktopFinal
         /// <summary>
         /// Initializes a new instance of the <see cref="MainWindow"/> class.
         /// </summary>
-        public MainWindow()
+        public MainWin()
         {
             // Get and set VM
             _vm = new TestViewModel();
@@ -29,6 +29,11 @@ namespace CS4_DesktopFinal
 
             // Initialize UI
             InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

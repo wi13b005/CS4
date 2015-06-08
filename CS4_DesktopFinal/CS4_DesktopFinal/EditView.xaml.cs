@@ -18,7 +18,7 @@ namespace CS4_DesktopFinal.Views
     /// <summary>
     /// Interaction logic for EditView.xaml
     /// </summary>
-    public partial class EditView : UserControl
+    public partial class EditView : Window
     {
         public EditView()
         {

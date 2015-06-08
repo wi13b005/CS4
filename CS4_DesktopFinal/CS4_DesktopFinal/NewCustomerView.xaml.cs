@@ -24,11 +24,11 @@ namespace CS4_DesktopFinal
             InitializeComponent();
         }
 
-private void InitializeComponent()
-{
- 	throw new NotImplementedException();
-}
 
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
      
         private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

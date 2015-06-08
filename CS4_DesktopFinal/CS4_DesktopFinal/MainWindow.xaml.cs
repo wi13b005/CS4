@@ -19,10 +19,8 @@ namespace CS4_DesktopFinal
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        
+
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -92,6 +90,16 @@ namespace CS4_DesktopFinal
             this.Hide(); //hide the MainWindow page
             NewCustomer NewWindow = new NewCustomer();
             NewWindow.Show();
+        }
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
 

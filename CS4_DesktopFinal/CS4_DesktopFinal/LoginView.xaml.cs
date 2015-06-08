@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+using CS4.Views;
+using CS4_DesktopFinal.Views;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -23,55 +26,57 @@ namespace CS4_DesktopFinal
     /// </summary>
     public partial class Login : Window
     {
-        public Login()
-        {
-            InitializeComponent();
+      
+
+
+       SqlConnection con = new SqlConnection();  
+        public Login()  
+        {  
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "Data Source=SS15-BDL4-FST-2\\DESKTOP;Initial Catalog=DesktopDB;Integrated Security=True";
+           
+            InitializeComponent();  
         }
-
-     
-
-        public SqlConnection con;
-        public string constr;
-
-        protected void LoginBTN(object sender, EventArgs e)
-        {
-
-
-            if (usernameTB.Text != "" && PasswordBoxPB.Password != "")
-            {
-                DBconnection objconn = new DBconnection();
-                objconn.connection(); //calling connection   
-
-                SqlCommand com = new SqlCommand("user_Sp_Login", objconn.con);
-                com.CommandType = CommandType.StoredProcedure;
-                com.Parameters.AddWithValue("@username", usernameTB.Text);
-                com.Parameters.AddWithValue("@password", PasswordBoxPB.Password);
-
-                int IsValidUser = Convert.ToInt32(com.ExecuteScalar());
-                if (IsValidUser == 1) //if user found it returns 1  
-                {
-                    this.Hide(); //hide the login page
-                    MainWindow NewWindow = new MainWindow();
-                    NewWindow.Show();
-
-                }
-                else
-                {
-
-                    MessageBox.Show("Invalid Username or password");
-
-                }
-            }
-            else
+  
+        private void DBconn_Load(object sender, EventArgs e)  
+        {  
+             
+            SqlConnection con = new SqlConnection("Data Source=SS15-BDL4-FST-2\\DESKTOP;Initial Catalog=DesktopDB;Integrated Security=True");  
+            con.Open();  
+  
+            {  
+            }  
+        }  
+  
+        private void button1_Click(object sender, EventArgs e)  
+        {  
+            SqlConnection con = new SqlConnection();  
+            con.ConnectionString = "Data Source=SS15-BDL4-FST-2\\DESKTOP;Initial Catalog=DesktopDB;Integrated Security=True";  
+            con.Open();  
+            string username = textBox1.Text;
+            char password = textBox2.PasswordChar;  
+            SqlCommand cmd = new SqlCommand("select username,password from User where username='" + textBox1.Text + "'and password='" + textBox2.PasswordChar + "'", con);  
+            SqlDataAdapter da = new SqlDataAdapter(cmd);  
+            DataTable dt = new DataTable();  
+            da.Fill(dt);  
+            if (dt.Rows.Count > 0)  
             {
 
-                MessageBox.Show("Username and Password are required!");
-
-            }
-
-
+                
+            }  
+            else  
+            {  
+                MessageBox.Show("Invalid Login please check username and password");  
+            }  
+            con.Close();  
         }
 
+        private void login_button(object sender, EventArgs e)
+        {
+            this.Hide(); //hide the login page
+            NewCustomer NewWindow = new NewCustomer();
+            NewWindow.Show();
+        }
 
         // private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         // {
