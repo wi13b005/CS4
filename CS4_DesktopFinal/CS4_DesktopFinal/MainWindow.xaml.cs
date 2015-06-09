@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CS4_DesktopFinal
@@ -20,12 +19,8 @@ namespace CS4_DesktopFinal
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        
 
-     
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -78,7 +73,7 @@ namespace CS4_DesktopFinal
 
         }
 
-       
+
 
         private void SaveAppointment_Click(object sender, RoutedEventArgs e)
         {
@@ -97,6 +92,16 @@ namespace CS4_DesktopFinal
             NewWindow.Show();
         }
 
-        
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }

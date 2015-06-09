@@ -68,14 +68,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
+    <Compile Include="CustomImage.cs" />
+    <Compile Include="DesktopDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DesktopDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\PatientList.cs" />
     <Compile Include="Model\Patient.cs" />
-    <Compile Include="NewCustomer.xaml.cs">
-      <DependentUpon>NewCustomer.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="TestCommand.cs" />
+    <Compile Include="TestViewModel.cs" />
     <Compile Include="ViewModel\BookingViewModel.cs" />
     <Compile Include="ViewModel\EditViewModel.cs" />
     <Compile Include="ViewModel\NewCustomerViewModel.cs" />
@@ -84,53 +93,31 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MainVM.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
-    <Compile Include="Views\EditView.xaml.cs">
+    <Compile Include="EditView.xaml.cs">
       <DependentUpon>EditView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\LoginView.xaml.cs">
-      <DependentUpon>LoginView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MainView.xaml.cs">
-      <DependentUpon>MainView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\NewCustomerView.xaml.cs">
+    <Compile Include="NewCustomerView.xaml.cs">
       <DependentUpon>NewCustomerView.xaml</DependentUpon>
     </Compile>
-    <Page Include="Login.xaml">
+    <Page Include="MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="LoginView.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Compile Include="Views\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="NewCustomer.xaml">
+    <Page Include="EditView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\EditView.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="NewCustomerView.xaml">
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\LoginView.xaml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\MainView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\NewCustomerView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +138,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="DesktopDBDataSet.xsc">
+      <DependentUpon>DesktopDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DesktopDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DesktopDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DesktopDBDataSet.xss">
+      <DependentUpon>DesktopDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -162,14 +160,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\body.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\body_model.png" />
     <Resource Include="Images\herbal.jpg" />
     <Resource Include="Images\herbalLogo.png" />
     <Resource Include="Images\homeopathic_medicine.jpg" />
     <Resource Include="Images\natural-treatment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
