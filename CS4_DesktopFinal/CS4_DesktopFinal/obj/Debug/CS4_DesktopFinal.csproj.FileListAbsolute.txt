@@ -94,3 +94,6 @@ C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal_MarkupCompile.cache
 C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal_MarkupCompile.lref
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\bin\Debug\CS4_DesktopFinal.exe.config
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.csprojResolveAssemblyReference.cache
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\App.g.cs
