@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Sara\Source\Repos\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\
 CS4_DesktopFinal
 none
 false
 DEBUG;TRACE
-C:\Users\Sara\Source\Repos\CS4\CS4_DesktopFinal\CS4_DesktopFinal\App.xaml
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\Views\App.xaml
 41008351888
 
-271331960361
-17-1519912116
+27-1084314758
+17-301545135
 MainWindow.xaml;LoginView.xaml;EditView.xaml;NewCustomerView.xaml;
 
-False
+True
 

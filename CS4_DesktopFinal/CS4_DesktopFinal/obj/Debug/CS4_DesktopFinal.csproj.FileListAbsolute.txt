@@ -101,3 +101,10 @@ C:\Users\Sara\Source\Repos\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_D
 C:\Users\Sara\Source\Repos\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.csproj.GenerateResource.Cache
 C:\Users\Sara\Source\Repos\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.exe
 C:\Users\Sara\Source\Repos\CS4\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\CS4_DesktopFinal.pdb
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\LoginView.baml
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\EditView.baml
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\NewCustomerView.baml
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\LoginView.g.cs
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\EditView.g.cs
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\NewCustomerView.g.cs
+C:\Users\roman\Source\Repos\CS4_DesktopFinal2\CS4_DesktopFinal\CS4_DesktopFinal\obj\Debug\Views\App.g.cs
